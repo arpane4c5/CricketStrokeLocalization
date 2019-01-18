@@ -1,7 +1,10 @@
-File Details:
+# CricketStrokeLocalization
+A repository for holding files for Temporal Cricket Stroke Localization on Untrimmed Videos (advanced). 
+
+## Shared files and folder Details:
 ________________________________________________________
 
-Useful files:
+### Useful files:
 
 c3d.pickle: 	C3D model weights file(Pretrained on Sports1M dataset). It was downloaded as is.
 
@@ -27,10 +30,9 @@ sequence_rnn.py: 	main file for training RNN on features and creating prediction
 
 finetune_c3d.py: 	main file for finetuning a pretrained C3D model and dump weights to disk.
 
-
 ________________________________________________________
 
-Folders:
+### Folders:
 
 sample_labels_shots: dataset labels (in json format)
 
